@@ -1,0 +1,43 @@
+body{
+    width: 50%;
+}
+p {
+    color: black;
+    font-weight: bold;
+}
+h4 {
+    font-weight: normal;
+}
+input[type="text"]{
+    width: 100%;
+}
+input[type="date"]{
+    width: 100%;
+}
+input[type="email"]{
+    width: 100%;
+}
+input[type="number"]{
+    width: 100%;
+}
+
+#nome{
+    
+    display: inline-block;
+    width: 389px;
+}
+#sobnome{
+    display: inline-block;
+}
+input[type="checkbox"] {
+   
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 6.35rem;
+}
+
+.label {
+    font-weight: bold;
+    color: black;
+}
